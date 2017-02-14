@@ -1,10 +1,10 @@
 > 작성자 : 이현주 (<siwabada@gmail.com>)
 
-# 문제 2 : [맵 문자열을 변환하고 출력하는 프로그램](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/data_converting.js)
+# 문제 2 : [맵 문자열을 변환하고 출력하는 프로그램](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)
 
 ## 문제풀이 과정 및 코드(JavaScript)
 
-- [파일경로](https://github.com/wayhome25/algorithm/blob/master/codesquad_level_test/data_converting.js)
+- [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)
 - **문제 2-1 풀이과정 : 문자열을 읽어 json으로 저장하는 함수**
 
 

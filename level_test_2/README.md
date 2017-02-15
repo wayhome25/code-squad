@@ -1,12 +1,15 @@
 > 작성자 : 이현주 (<siwabada@gmail.com>)
 
-# 문제 2 : [맵 문자열을 변환하고 출력하는 프로그램](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)
+# 문제 2 : 맵 문자열을 변환하고 출력하는 프로그램
 
 ## 문제풀이 과정 및 코드(JavaScript)
+#### [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)
+#### 실행환경
+- 브라우저 개발자도구 콘솔에 [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)의 코드 혹은 아래의 코드를 복사, 붙여넣기 하여 실행
 
-- [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_2/data_converting.js)
-- **문제 2-1 풀이과정 : 문자열을 읽어 json으로 저장하는 함수**
-
+#### 문제 2-1 풀이과정
+- 문제 : 문자열을 읽어 json으로 저장하는 함수
+- **코드**
 
 ```javascript
 
@@ -31,7 +34,20 @@ function parseData(map_string){
 console.log(parseData(map));
 ```
 
-- **문제 2-2 풀이과정 : 1의 json을 2차원 배열로 변환하고 해달 배열을 화면에 출력하는 함수를 작성하세요.. 단 - 는 공백으로 바꾸어 출력합니다.**
+- **실행결과**
+
+```javascript
+// 입력값
+console.log(parseData(map));
+// 리턴값
+{"width":10,"height":5,"data":"++++++++++,+-P------+,+--------+,+-----o--+,++++++++++,"}
+
+```
+
+
+#### 문제 2-2 풀이과정
+- 문제 : 1의 json을 2차원 배열로 변환하고 해달 배열을 화면에 출력하는 함수를 작성하세요.. 단 - 는 공백으로 바꾸어 출력합니다.
+- **코드**
 
 ```javascript
 
@@ -60,5 +76,17 @@ function drawMap(json_string){
 
 // 문제 2-2 정답 확인
 console.log(drawMap(json));
+```
 
+- **실행결과**
+
+```javascript
+// 입력값
+console.log(drawMap(json));
+// 리턴값
+++++++++++
++ P      +
++        +
++     o  +
+++++++++++
 ```

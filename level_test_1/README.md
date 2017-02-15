@@ -3,11 +3,11 @@
 # 문제1 : 1240 나라
 
 ## 문제풀이 과정 및 코드(JavaScript)
-#### [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_1/1240_world.js)
-#### 실행환경
+### [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_1/1240_world.js)
+### 실행환경
 - 브라우저 개발자도구 콘솔에 [파일경로](https://github.com/wayhome25/code-squad/blob/master/level_test_1/1240_world.js)의 코드 혹은 아래의 코드를 복사, 붙여넣기 하여 실행
 
-#### 문제 1-1 풀이과정 : 10진수 > 1240 숫자
+### 문제 1-1 풀이과정 : 10진수 > 1240 숫자
 
 - "0", "1", "2", "4" 아이템을 갖는 배열 arr를 선언
 - 매개변수 num을 4진수로 변환하여 변수 hex에 할당
@@ -45,7 +45,7 @@ to1240(124); // "1440"
 
 ```
 
-#### 문제 1-2 풀이과정: 1240숫자 > 10진수
+### 문제 1-2 풀이과정: 1240숫자 > 10진수
 - "0", "1", "2", "4" 아이템을 갖는 배열 arr를 선언
 - 매개변수 str의 각 자리수 데이터를 index 변수에 할당
 - 배열 arr에서 각 index변수의 데이터와 일치하는 값을 검색하여 해당 값의 index를 추출한 후 문자열로 변환  

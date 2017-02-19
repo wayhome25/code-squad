@@ -58,7 +58,7 @@ var json = parseData(map_data) // parseData 함수는 문제 2-1 에서 정의
 
 
 function drawMap(json_string){
-  json_string = JSON.parse(json_string) // 매개변수 json_string을 JSON으로 파싱
+  json_string = JSON.parse(json_string) // 인자 json_string을 JSON으로 파싱
   var arr = []; // 빈 배열 arr를 생성
   for(var key in json_string){
 	arr.push([key, json_string[key]]) // json_string 객체의 각각의 key, value로 구성된 2차원 배열 arr 생성
